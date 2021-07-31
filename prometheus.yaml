@@ -1,2 +1,10 @@
 apiVersion: v1
 kind: Pod
+metadata:
+  name: prometheus
+  labels:
+    app: frontend
+spec:
+  containers:
+  - name: test
+    image: prom/prometheus

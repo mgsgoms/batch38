@@ -8,3 +8,5 @@ spec:
   containers:
   - name: test
     image: prom/prometheus
+    containerPort:
+    - port: 9090
